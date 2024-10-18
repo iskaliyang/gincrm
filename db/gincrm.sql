@@ -93,7 +93,7 @@ CREATE TABLE `mail_configs`  (
 -- ----------------------------
 -- Records of mail_configs
 -- ----------------------------
-INSERT INTO `mail_configs` VALUES (2, 'smtp.qq.com', 465, 'ktcdnwwmxcclchjg', '3285844058@qq.com', 1, 1, 1720581412, 1728982936);
+INSERT INTO `mail_configs` VALUES (2, 'smtp.qq.com', 465, '666', '3285844058@qq.com', 1, 1, 1720581412, 1728982936);
 
 -- ----------------------------
 -- Table structure for notices
