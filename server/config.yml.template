@@ -1,0 +1,32 @@
+server:
+  port: 8001
+  run_dev: dev
+
+mysql:
+  dns: root:123456@tcp(127.0.0.1:3307)/gincrm?charset=utf8&parseTime=True&loc=Local&multiStatements=true
+
+redis:
+  addr: 127.0.0.1
+  port: 6379
+  password:
+  DB: 0
+  poolSize: 30
+  minIdleConn: 30
+
+
+mail:
+  smtp: smtp.qq.com
+  secret:
+  sender:
+
+alipay:
+  # 应用id
+  appId:
+  # 应用私钥 密钥工具生成的那个私钥
+  privateKey:
+  # 支付宝公钥 当把应用的公钥配置到支付宝后，支付宝会生成勇哥对应的公用，就是这个
+  aliPayPublicKey:
+  # 支付后的回调地址 回调到前端的某个路由
+  returnURL:
+  # 支付宝服务器主动【通知】商户服务器里指定的页面http/https路径。 回调到后端接口，处理支付完成后的相关操作
+  notifyURL:
